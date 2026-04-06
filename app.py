@@ -7,7 +7,7 @@ from datetime import datetime
 import base64
 
 # --- CONFIGURATION DE LA PAGE ---
-st.set_page_config(page_title="D&C Intelligence - Scoring Crédit", layout="wide")
+st.set_page_config(page_title="DP-TECH - Scoring Crédit", layout="wide")
 
 st.title("🎯 Scoring Comportemental & Matrice de Migration")
 st.markdown("Outil d'aide à la décision pour le pilotage du risque de crédit.")
