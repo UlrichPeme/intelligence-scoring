@@ -65,10 +65,9 @@ fichier_upload = st.sidebar.file_uploader("Charger un fichier Excel (Max 100 lig
 utiliser_demo = st.sidebar.checkbox("Utiliser les données de Démo (100 clients)", value=True)
 
 st.sidebar.markdown("---")
-st.sidebar.subheader("💡 Optimisez votre gestion des risques")
-st.sidebar.write("Vous souhaitez une solution sur-mesure ou automatiser vos reportings ?")
-# Remplace par ton vrai lien Calendly ici :
-st.sidebar.link_button("📅 Réserver un Audit BI Gratuit", "https://calendly.com/ton-lien-calendly", use_container_width=True)
+st.sidebar.subheader("💡 Passez de la démo à vos données")
+st.sidebar.write("Découvrez comment nous pouvons adapter ce moteur de scoring comportemental à la réalité spécifique de vos encours.")
+st.sidebar.link_button("☕ Réserver un échange avec un expert Data", "https://calendly.com/ulrichpeme/call-datasense", use_container_width=True)
 
 # --- TRAITEMENT DES DONNÉES ---
 
